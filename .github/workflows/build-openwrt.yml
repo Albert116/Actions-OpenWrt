@@ -77,7 +77,7 @@ jobs:
     - name: add helloworld custom
       run: |
         cd openwrt
-        echo " src-git kenzo https://github.com/kenzok8/openwrt-packages" >> feeds.conf.default
+        echo "src-git kenzo https://github.com/kenzok8/openwrt-packages" >> feeds.conf.default
 
     - name: Update feeds
       run: cd openwrt && ./scripts/feeds update -a
