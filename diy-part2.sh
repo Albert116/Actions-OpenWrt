@@ -17,4 +17,4 @@ sed -i 's/OpenWrt/AutoBuild $(date "+%Y.%m.%d") @ OpenWrt/g' package/lean/defaul
 #git clone https://github.com/fw876/helloworld.git package/lean/luci-app-helloworld
 #sed -i 's/#src-git helloworld/src-git helloworld/g' ./feeds.conf.default
 # Uncomment a feed source
-sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
+#sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
